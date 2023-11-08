@@ -1,0 +1,59 @@
+
+.buttons {
+width: auto;
+height: 36px;
+display: flex;
+flex-direction: row;
+gap: 16px;
+overflow: hidden;
+}
+
+
+
+.primary-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding: 8px 16px 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 18;
+  height: 36px;
+  width: auto;
+  color: white;
+}
+
+.primary-button:hover {
+  opacity: 10%;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.secondary-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding: 8px 16px 8px 16px;
+  background-color: rgb(239, 239, 239);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 18;
+  height: 36px;
+  width: auto;
+}
+
+.secondary-button:hover {
+  cursor: pointer;
+  transition: 0.1s;
+}
